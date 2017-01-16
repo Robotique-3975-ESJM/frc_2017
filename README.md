@@ -21,3 +21,8 @@ Les dossiers proposés sont les suivants:
   * https://github.com/login
 1. Demander à l'administrateur du projet pour avoir le droit d'écriture
   * Administrateur: @smchan514
+
+## Plan de construction
+
+Le plan de construction est disponible dans le fichier `plan_frc_2017.gan`, créé avec le logiciel open-source GanttProject:
+  * http://www.ganttproject.biz/download

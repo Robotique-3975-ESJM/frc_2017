@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-01-08" view-index="0" gantt-divider-location="413" resource-divider-location="300" version="2.8.1" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Compétition FRC 2017 -- Construction du robot" company="Les Dragons 3975" webLink="http://www.team3975.com" view-date="2017-01-08" view-index="0" gantt-divider-location="544" resource-divider-location="300" version="2.8.1" locale="en_CA">
     <description/>
     <view zooming-state="default:6" id="gantt-chart">
-        <field id="tpd3" name="Name" width="220" order="0"/>
-        <field id="tpd4" name="Begin date" width="95" order="1"/>
-        <field id="tpd5" name="End date" width="94" order="2"/>
+        <field id="tpd3" name="Name" width="240" order="0"/>
+        <field id="tpd4" name="Begin date" width="115" order="1"/>
+        <field id="tpd5" name="End date" width="114" order="2"/>
+        <field id="tpd6" name="Duration" width="71" order="3"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
