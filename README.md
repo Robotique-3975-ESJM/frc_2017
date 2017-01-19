@@ -32,7 +32,7 @@ Les dossiers proposés sont les suivants:
 1. Demander à l'administrateur du projet pour avoir le droit d'écriture
   * Administrateur: @smchan514
 1. Se connecter sur le site GitHub et télécharger les fichiers à modifier via l'interface Web.
-1. Sinon utiliser la commande `git push` pour publier les changements dans votre copie de ce dépôt. (Détailles à venir...)
+1. Sinon utiliser la commande `git push` pour publier les changements dans votre copie de ce dépôt. (Détails à venir...)
 
 ## Plan de construction
 
