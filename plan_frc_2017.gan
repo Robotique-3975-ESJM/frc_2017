@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Compétition FRC 2017 -- Construction du robot" company="Les Dragons 3975" webLink="http://www.team3975.com" view-date="2017-01-08" view-index="0" gantt-divider-location="544" resource-divider-location="300" version="2.8.1" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Compétition FRC 2017 -- Construction du robot" company="Les Dragons 3975" webLink="http://www.team3975.com" view-date="2017-01-12" view-index="0" gantt-divider-location="544" resource-divider-location="300" version="2.8.1" locale="en_CA">
     <description/>
-    <view zooming-state="default:6" id="gantt-chart">
+    <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Name" width="240" order="0"/>
         <field id="tpd4" name="Begin date" width="115" order="1"/>
         <field id="tpd5" name="End date" width="114" order="2"/>
@@ -36,9 +36,9 @@
         </taskproperties>
         <task id="0" name="Prototype" meeting="false" start="2017-01-14" duration="13" complete="0" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
-            <task id="7" name="Proto base pilotable" meeting="false" start="2017-01-14" duration="1" complete="0" expand="true"/>
-            <task id="8" name="Proto ramasseur" meeting="false" start="2017-01-16" duration="6" complete="0" expand="true"/>
-            <task id="9" name="Proto lanceur" meeting="false" start="2017-01-16" duration="6" complete="0" expand="true"/>
+            <task id="7" name="Proto base pilotable" color="#8cb6ce" meeting="false" start="2017-01-14" duration="10" complete="0" expand="true"/>
+            <task id="8" name="Proto ramasseur" color="#8cb6ce" meeting="false" start="2017-01-16" duration="9" complete="0" expand="true"/>
+            <task id="9" name="Proto lanceur" color="#8cb6ce" meeting="false" start="2017-01-16" duration="9" complete="0" expand="true"/>
             <task id="10" name="Proto receveur engrenage" meeting="false" start="2017-01-23" duration="6" complete="0" expand="true"/>
             <task id="20" name="Proto grimpeur" meeting="false" start="2017-01-23" duration="6" complete="0" expand="true"/>
         </task>
@@ -46,13 +46,25 @@
             <depend id="2" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="2" name="Formation pilot" meeting="false" start="2017-02-13" duration="7" complete="0" expand="true">
-            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Rubber"/>
         </task>
         <task id="3" name="Fin de construction" color="#8cb6ce" meeting="true" start="2017-02-21" duration="0" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
     <vacations/>
-    <previous/>
+    <previous>
+        <previous-tasks name="Plan initial">
+            <previous-task id="0" start="2017-01-14" duration="13" meeting="false" super="true"/>
+            <previous-task id="7" start="2017-01-14" duration="1" meeting="false" super="false"/>
+            <previous-task id="8" start="2017-01-16" duration="6" meeting="false" super="false"/>
+            <previous-task id="9" start="2017-01-16" duration="6" meeting="false" super="false"/>
+            <previous-task id="10" start="2017-01-23" duration="6" meeting="false" super="false"/>
+            <previous-task id="20" start="2017-01-23" duration="6" meeting="false" super="false"/>
+            <previous-task id="1" start="2017-01-30" duration="12" meeting="false" super="false"/>
+            <previous-task id="2" start="2017-02-13" duration="7" meeting="false" super="false"/>
+            <previous-task id="3" start="2017-02-21" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+    </previous>
     <roles roleset-name="Default"/>
 </project>
